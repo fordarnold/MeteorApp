@@ -3,16 +3,7 @@
 </head>
 
 <body>
-  <h1>Welcome to Meteor!!!</h1>
+  <h1>Welcome to your Meteor app!!!</h1>
 
   {{> bookShelf}}
 </body>
-
-<template name="bookShelf">
-  <h3>Here are your books:</h3>
-  <ul>
-  	{{#each books}}
-  	<li><i>{{title}}</i> by {{author}}</li>
-  	{{/each}}
-  </ul>
-</template>
