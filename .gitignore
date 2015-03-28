@@ -1,0 +1,13 @@
+# node.js
+
+/node_modules
+
+# general
+
+.DS_Store
+Thumbs.db
+/.idea
+
+*.mp4
+*.mkv
+/public/video
