@@ -3,12 +3,16 @@
 </head>
 
 <body>
-  <h1>Welcome to Meteor!</h1>
+  <h1>Welcome to Meteor!!!</h1>
 
-  {{> hello}}
+  {{> bookShelf}}
 </body>
 
-<template name="hello">
-  <button>Click Me</button>
-  <p>You've pressed the button {{counter}} times.</p>
+<template name="bookShelf">
+  <h3>Here are your books:</h3>
+  <ul>
+  	{{#each books}}
+  	<li><i>{{title}}</i> by {{author}}</li>
+  	{{/each}}
+  </ul>
 </template>
